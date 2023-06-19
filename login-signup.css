@@ -1,0 +1,1023 @@
+*{
+
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+  list-style: none;
+
+}
+
+body {
+
+  background: hsla(208, 30%, 89%, 0.4);
+
+  background-size: cover;
+
+  background-repeat: repeat;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.container{
+
+  width: 90%;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background: transparent;
+
+  margin-bottom: 40px;
+
+}
+
+.Message{
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 80px;
+
+  margin: 50px;
+
+  margin-top: 200px;
+
+  color: rgba(38, 45, 126, 1);
+
+}
+
+.Message h2{
+
+  font-size: 2rem;
+
+  padding: 8px;
+
+}
+
+.Message h3{
+
+  font-size: 1.5rem;
+
+  padding: 8px;
+
+}
+
+.Message p{
+
+  font-size: 1rem;
+
+  color: #000;
+
+  font-weight: bold;
+
+}
+
+.user-signup{
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+form{
+
+  width: 600px;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  background: #fff;
+
+  box-shadow: -8px 8px 15px hsla(215, 30%, 80%, 1), 5px 5px 15px hsla(215, 30%, 80%, 1);
+
+  border: none;
+
+  border-radius: 10px;
+
+}
+
+.nav{
+
+  display: flex;
+
+  justify-content: space-evenly;
+
+  align-items: center;
+
+  height: 40px;
+
+  width: 100%;
+
+  margin-top: 15px;
+
+}
+
+.signup-nav, .login-nav{
+
+  border: none;
+
+  border-bottom: 2px solid #16B0AC;
+
+  width: 20%;
+
+  height: inherit;
+
+  padding: 10px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  color: #16B0AC;
+
+}
+
+.nav button{
+
+  width: 20%;
+
+  height: inherit;
+
+  color: #16B0AC;
+
+  font-size: 20px;
+
+  border: none;
+
+  background: transparent;
+
+  font-weight: bold;
+
+}
+
+.name-field{
+
+  display: flex;
+
+  width: 100%;
+
+  justify-content: space-evenly;
+
+  margin-top: 50px;
+
+}
+
+.name-field input{
+
+  border: 1px solid #16B0AC;
+
+  border-radius: 8px;
+
+  height: 35px;
+
+  width: 100%;
+
+  outline: none;
+
+  padding: 10px;
+
+}
+
+.Fname{
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 40%;
+
+}
+
+label{
+
+  margin-bottom: 10px;
+
+  font-size: 18px;
+
+  font-weight: bolder;
+
+}
+
+.Lname {
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 40%;
+
+}
+
+/* General style for icon */
+
+.fa-circle-check{
+
+  margin-right: 5px;
+
+  color: #16B0AC;
+
+}
+
+.fa-circle-xmark{
+
+  margin-right: 5px;
+
+  color: #ff0000;
+
+}
+
+.email-field{
+
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-top: 30px;
+
+}
+
+.email-field label{
+
+  margin-left: -65%;
+
+}
+
+.email{
+
+  width: 85%;
+
+  height: 35px;
+
+  border: 1px solid #16B0AC;
+
+  border-radius: 8px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.email input{
+
+  width: 85%;
+
+  height: inherit;
+
+  outline: none;
+
+  background: transparent;
+
+  border: none;
+
+  padding: 10px;
+
+}
+
+.report{
+
+  margin-top: 10px;
+
+  margin-left: -65%;
+
+  font-size: 12px;
+
+  font-weight: bolder;
+
+  font-weight: bolder;
+
+}
+
+.Password-requirement{
+
+  display: flex;
+
+  flex: 1;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  justify-content: flex-start;
+
+  margin: 30px;
+
+  margin-bottom: 10px;
+
+}
+
+.Password-requirement h3{
+
+  margin-left: 10%;
+
+}
+
+.requirement{
+
+  margin-left: 10%;
+
+  display: flex;
+
+  line-height: 2rem;
+
+}
+
+.requirement p{
+
+  margin-left: 5px;
+
+}
+
+.password-field{
+
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-top: 5px;
+
+}
+
+.password-field label{
+
+  margin-left: -70%;
+
+}
+
+.second label {
+
+  margin-left: -60%;
+
+}
+
+.second{
+
+  margin-top: 20px;
+
+}
+
+.password{
+
+  width: 85%;
+
+  height: 35px;
+
+  border: 1px solid #16B0AC;
+
+  border-radius: 8px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.password input{
+
+  width: 85%;
+
+  height: inherit;
+
+  outline: none;
+
+  background: transparent;
+
+  border: none;
+
+  padding: 10px;
+
+}
+
+.fa-eye{
+
+  color: #16B0AC;
+
+  margin-right: 10px;
+
+}
+
+.fa-eye-slash{
+
+  color: #16B0AC;
+
+  margin-right: 10px;
+
+}
+
+.password button {
+
+  width: 30px;
+
+  height: 30px;
+
+  border-radius: 50%;
+
+  background: transparent;
+
+  border: none;
+
+  margin-right: 2px;
+
+  text-align: center;
+
+}
+
+.makePasswordInvisible{
+
+  display: none;
+
+}
+
+.confirmInvisible{
+
+  display: none;
+
+}
+
+.inner-form{
+
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+.category{
+
+  width: 85%;
+
+  background: #16B0AC;
+
+  height: 30px;
+
+  border: none;
+
+  /*
+
+  border-start-start-radius: 8px;
+
+  border-start-end-radius: 8px;
+
+  */
+
+  border-radius: 8px;
+
+  margin-top: 20px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  box-shadow: -5px 5px 15px hsla(215, 30%, 80%, 1);
+
+}
+
+.category input{
+
+  color: #fff;
+
+  height: inherit;
+
+  width: 85%;
+
+  border: none;
+
+  outline: none;
+
+  background: transparent;
+
+  padding-left: 10px;
+
+  font-weight: bold;
+
+  text-align: left;
+
+  font-size: 20px;
+
+  padding-left: 10px;
+
+}
+
+.category button{
+
+  border-radius: 50%;
+
+  height: 20px;
+
+  width: 20px;
+
+  border: none;
+
+  background: #fff;
+
+  margin-right: 15px;
+
+}
+
+.fa-solid{
+
+  color: #16B0AC;
+
+}
+
+.category-selector{
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 85%;
+
+  height: 120px;
+
+  border: 1px solid #16B0AC;
+
+  border-radius: 8px;
+
+}
+
+ .category-selector{
+
+   display: none;
+
+ }
+
+.category-selector input{
+
+  height: inherit;
+
+  background: none;
+
+  border: none;
+
+  border-bottom: 1px solid #ccc;
+
+  text-align: left;
+
+  padding-left: 10px;
+
+}
+
+.gender{
+
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 50%;
+
+  margin: 20px;
+
+}
+
+.male-gender label{
+
+  margin-left: 5px;
+
+}
+
+.female-gender label {
+
+  margin-left: 5px;
+
+}
+
+.Signup{
+
+  height: 40px;
+
+  width: 50%;
+
+  background: #16B0AC;
+
+  border: none;
+
+  border-radius: 8px;
+
+  color: #fff;
+
+  font-size: 20px;
+
+  font-weight: bolder;
+
+  margin-bottom: 30px;
+
+  box-shadow: -5px 5px 15px hsla(215, 30%, 80%, 1), 5px 5px 15px hsla(215, 30%, 80%, 1);
+
+}
+
+.user-login{
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+.user-login{
+
+  display: none;
+
+}
+
+.Login{
+
+  height: 40px;
+
+  width: 50%;
+
+  background: #16B0AC;
+
+  border: none;
+
+  border-radius: 8px;
+
+  color: #fff;
+
+  font-size: 20px;
+
+  font-weight: bolder;
+
+  margin-bottom: 20px;
+
+  margin-top: 20px;
+
+}
+
+.forgot{
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin: 10px;
+
+  width: 90%;
+
+  height: 50px;
+
+}
+
+.forgot button{
+
+  border: none;
+
+  background: transparent;
+
+  font-size: 18px;
+
+  margin-right: 20px;
+
+}
+
+.remember-me{
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-left: 20px;
+
+}
+
+.remember-me label{
+
+  margin-left: 5px;
+
+  margin-top: 8px;
+
+}
+
+.invisible{
+
+  display: none;
+
+}
+
+@media screen and (max-width:  657px){
+
+  .Message{
+
+  height: 50px;
+
+  margin: 30px;
+
+  margin-top: 100px;
+
+}
+
+.Message h2{
+
+  font-size: 18px;
+
+  padding-bottom: 3px;
+
+}
+
+.Message h3{
+
+  font-size: 16px;
+
+  padding-bottom: 5px;
+
+}
+
+.Message p{
+
+  font-size: 12px;
+
+  color: #000;
+
+}
+
+form{
+
+  width: 400px;
+
+  height: 100%;
+
+  box-shadow: -8px 8px 15px hsla(215, 30%, 80%, 1), 5px 5px 15px hsla(215, 30%, 80%, 1);
+
+}
+
+.nav{
+
+  height: 40px;
+
+  width: 100%;
+
+  margin-top: 15px;
+
+  margin-left: -10%;
+
+}
+
+.signup-nav {
+
+  width: 20%;
+
+  height: inherit;
+
+  margin-left: 10%;
+
+}
+
+.user-login .signup-nav{
+
+  margin-left: 0;
+
+}
+
+.login-nav button {
+
+  border: none;
+
+}
+
+label {
+
+  margin-bottom: 10px;
+
+  font-size: 14px;
+
+}
+
+.password-field label{
+
+  margin-left: -68%;
+
+}
+
+.second label {
+
+  margin-left: -55%;
+
+}
+
+.second{
+
+  margin-top: 20px;
+
+}
+
+.password{
+
+  width: 85%;
+
+  height: 40px;
+
+}
+
+.password input{
+
+  width: 85%;
+
+  height: inherit;
+
+}
+
+.name-field input {
+
+  height: 40px;
+
+  width: 100%;
+
+}
+
+.email {
+
+  width: 85%;
+
+  height: 40px;
+
+}
+
+.email input {
+
+  width: 85%;
+
+  height: inherit;
+
+}
+
+.Password-requirement p{
+
+  font-size: 14px;
+
+}
+
+.Password-requirement h3{
+
+  font-size: 16px;
+
+}
+
+.name-field{
+
+  display: flex;
+
+  flex-direction: column;
+
+  margin-top: 35px;
+
+  width: 85%;
+
+}
+
+.name-field input{
+
+  height: 40px;
+
+  width: 112%;
+
+}
+
+.Fname{
+
+  width: 90%;
+
+  margin: 10px 0;
+
+}
+
+.Lname {
+
+  width: 90%;
+
+  margin: 10px 0;
+
+}
+
+.Signup{
+
+  font-size: 18px;
+
+  height: 50px;
+
+  box-shadow: -5px 5px 15px hsla(215, 30%, 80%, 1), 5px 5px 15px hsla(215, 30%, 80%, 1);
+
+}
+
+.category{
+
+  box-shadow: -5px 5px 15px hsla(215, 30%, 80%, 1);
+
+}
+
+.Login{
+
+  height: 40px;
+
+  width: 50%;
+
+  font-size: 16px;
+
+}
+
+.forgot button {
+
+  font-size: 14px;
+
+}
+
+.report {
+
+  margin-left: -55%;
+
+  font-weight: bolder;
+
+}
+
+.category button {
+
+  margin-right: 5px;
+
+}
+
+.mobileChange{
+
+  display: flex;
+
+}
+
+.category-selector input{
+
+  height: inherit;
+
+}
+
+.category-selector{
+
+  height: 150px;
+
+}
+
+.category input{
+
+  font-size: 16px;
+
+  height: inherit;
+
+}
+
+.category{
+
+  height: 50px;
+
+}
+
+}
